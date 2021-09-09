@@ -564,6 +564,11 @@ ul{
   font-size: 12px
 }
 
+
+#more7 {display: none;
+  font-size: 12px
+}
+
 .button4 {
   background-color: white;
   color:rgba(45, 45, 46, 0.521);

@@ -45,7 +45,7 @@
             <br>
             <h2 class="font-medium" style="text-align: center;" > EXPERIENCE </h2> <br> 
                         <div>
-            <a href="#" onclick="myFunction()">
+            <a  onclick="myFunction()">
 
                <div class="py-2 px-4 hover:bg-gray-100">
                   <h2 class="font-medium">Big Local News</h2> 
@@ -67,7 +67,7 @@
             </div>
 
                <div>
-               <a href="#" onclick="myFunction1()">
+               <a  onclick="myFunction1()">
    
                   <div class="py-2 px-4 hover:bg-gray-100">
                      <h2 class="font-medium">Computer Science Department, Columbia University</h2> 
@@ -89,7 +89,7 @@
                </div>
 
                <div>
-               <a href="#" onclick="myFunction3()">
+               <a onclick="myFunction3()">
    
                   <div class="py-2 px-4 hover:bg-gray-100">
                      <h2 class="font-medium">Bluebonnet Data</h2> 
@@ -109,7 +109,7 @@
                </div>
 
                <div>
-                  <a href="#" onclick="myFunction4()">
+                  <a onclick="myFunction4()">
       
                      <div class="py-2 px-4 hover:bg-gray-100">
                         <h2 class="font-medium">Barnard College Computer Science Summer Research Institute</h2> 
@@ -126,7 +126,7 @@
                   </div>
 
                   <div>
-                     <a href="#" onclick="myFunction5()">
+                     <a onclick="myFunction5()">
          
                         <div class="py-2 px-4 hover:bg-gray-100">
                            <h2 class="font-medium">Public Interest Technology Lab, Columbia University</h2> 
@@ -142,11 +142,11 @@
 
 
                      <div>
-                        <a href="#" onclick="myFunction6()">
+                        <a onclick="myFunction6()">
             
                            <div class="py-2 px-4 hover:bg-gray-100">
-                              <h2 class="font-medium">Instructional Media and Technology Services</h2> 
-                              <div class="text-gray-400">Instructional Technologists<span id="myBtn6"> ▼ </span> </div>
+                              <h2 class="font-medium">Instructional Media and Technology Services, Barnard College</h2> 
+                              <div class="text-gray-400">Instructional Technologist<span id="myBtn6"> ▼ </span> </div>
             
                               <p><span id="dots6"></span><ul><span id="more6">
                                  <li>- Advised and taught students on the uses and applications of creative tools and technologies for content creation, including production equipment, editing software, and design programs </li>
@@ -154,6 +154,46 @@
                            </div>
                         </a>
                         </div>
+
+<br>
+                        <h2 class="font-medium" style="text-align: center;" id="extra" > EXTRACURRICULARS </h2> <br> 
+                        <div>
+                           
+                           <div>
+                              <a onclick="myFunction7()">
+                  
+                                 <div class="py-2 px-4 hover:bg-gray-100">
+                                    <h2 class="font-medium">Columbia Data Science Society</h2> 
+                                    <div class="text-gray-400">Executive Board Member<span id="myBtn7"> ▼ </span> </div>
+                  
+                                    <p><span id="dots7"></span><ul><span id="more7">
+                                       <li>- Worked with a board of 15 peers to create and lead weekly events focused on data science education, increasing the approachability of STEM for participants with diverse backgrounds and building community in the field; 20-100 attendees
+                                       </li> </span></ul></p>
+                                 </div>
+                              </a>
+                              </div>
+
+                              <div class="py-2 px-4 hover:bg-gray-100">
+                                 <h2 class="font-medium">Columbia University Emergency Medical Service</h2> 
+                                 <div class="text-gray-400">Emergency Medical Technician<span> </span> </div>
+               
+                                
+                              </div>
+                           
+                           </div>
+
+                           <div>
+                             
+                  
+                                 <div class="py-2 px-4 hover:bg-gray-100">
+                                    <h2 class="font-medium">Nightline Peer Listening</h2> 
+                                    <div class="text-gray-400">Peer Listener, Training Coordinator<span> </span> </div>
+                  
+                                   
+                                 </div>
+                              
+                              </div>
+                        
 
          </div>
 
@@ -271,6 +311,23 @@
              moreText.style.display = "inline";
            }
          }
+
+         function myFunction7() {
+           var dots = document.getElementById("dots7");
+           var moreText = document.getElementById("more7");
+           var btnText = document.getElementById("myBtn7");
+         
+           if (dots.style.display === "none") {
+             dots.style.display = "inline";
+             btnText.innerHTML = "&nbsp ▼ &nbsp"; 
+             moreText.style.display = "none";
+           } else {
+             dots.style.display = "none";
+             btnText.innerHTML = "&nbsp ▲ &nbsp"; 
+             moreText.style.display = "inline";
+           }
+         }
+
 
 
          </script>
